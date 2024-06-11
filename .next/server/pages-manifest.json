@@ -1,0 +1,16 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/account/login": "pages/account/login.html",
+  "/_error": "pages/_error.js",
+  "/account/register": "pages/account/register.html",
+  "/api/users/[id]": "pages/api/users/[id].js",
+  "/api/users/authenticate": "pages/api/users/authenticate.js",
+  "/api/users/register": "pages/api/users/register.js",
+  "/": "pages/index.html",
+  "/users/add": "pages/users/add.html",
+  "/api/users": "pages/api/users.js",
+  "/users/edit/[id]": "pages/users/edit/[id].html",
+  "/users": "pages/users.html",
+  "/404": "pages/404.html"
+}
