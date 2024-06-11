@@ -6,9 +6,7 @@ const nextConfig = {
         secret: process.env.SECRET_KEY
     },
     publicRuntimeConfig: {
-        apiUrl: process.env.NODE_ENV === 'development'
-            ? 'https://bookthetrip.netlify.app/api' // development api
-            : 'http://localhost:3000/api' // local api
+        apiUrl: process.env.API_URI
     }
 }
 
